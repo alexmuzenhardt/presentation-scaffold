@@ -1,14 +1,14 @@
 import React from 'react';
-import {Outlet} from "react-router-dom";
-import Stepper from "./stepper";
+import {Outlet} from 'react-router-dom';
+import Stepper from './stepper';
 
 const Presentation = () => {
-	return (
-		<>
-			<Outlet />
-			<Stepper/>
-		</>
-	);
+  return (
+    <>
+      <Outlet />
+      <Stepper />
+    </>
+  );
 };
 
 export default Presentation;
